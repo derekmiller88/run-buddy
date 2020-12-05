@@ -79,7 +79,7 @@ section {
   position: relative;
 }
 /* Hero Style End */
-
+/* position: absolute foces the rectangle to stay in the spot on your screen regardless of other elements */
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
@@ -161,7 +161,7 @@ section {
 .steps span {
   font-size: 38px;
 }
-
+/* display: inline-block enables multiple rectangles to sit side-by-side */
 .section-title {
   font-size: 55px;
   color: #024e76;
@@ -224,4 +224,26 @@ section {
 
 .text-right {
   text-align: right;
+}
+
+.contact {
+    color: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+/* How to set up containers next to each other in a two-column layout */
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
 }
