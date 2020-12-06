@@ -70,7 +70,7 @@ section {
   padding: 60px;
 }
 
-/* Hero Style Start */
+/* homepage Hero Start */
 .hero {
   background-image: url('../images/hero-bg.jpg');
   height: 600px;
@@ -78,8 +78,16 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
-/* position: absolute foces the rectangle to stay in the spot on your screen regardless of other elements */
+/* homepage Hero Style End */
+/* secondary page hero start */
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
+/* secondary page hero end */
+
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
@@ -161,7 +169,7 @@ section {
 .steps span {
   font-size: 38px;
 }
-/* display: inline-block enables multiple rectangles to sit side-by-side */
+
 .section-title {
   font-size: 55px;
   color: #024e76;
@@ -225,42 +233,46 @@ section {
 .text-right {
   text-align: right;
 }
-/* REACH OUT SYTLES BEGIN */
+
+/* REACH OUT STYLES START */
 .contact {
-    color: #024e76;
+  text-align: center;
+  background: #024e76;
 }
 
 .contact h2 {
-    color: #fce138;
+  color: #fce138;
 }
 
 .contact-info iframe {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
-/* How to set up containers next to each other in a two-column layout */
+
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
 }
 
 .contact-info h3 {
-    color: #fce138;
-    font-size: 32px;
+  color: #fce138;
+  font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
 }
 
 .contact-info a {
-    color: #fce138;
+  color: #fce138;
 }
+
 /* REACH OUT STYLES END */
